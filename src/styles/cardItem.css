@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardItems {
+    height: 550px;
+    width: 280px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Image */
+
+.cardItems .cardImg {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardItems .cardImg img{
+    width: 100%;
+
+}
+
+
+/* Description */
+
+.cardDescription {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardDescription .title {
+    font-size: 30px;
+    margin: 6px 0;
+}
+
+.cardDescription .description {
+    display: none;
+}
+
+.cardDescription .quantity {
+    color: black;
+    font-size: 18px;
+}
+
+.cardDescription .price {
+    color: #57a8a9;
+    font-size: 40px;
+    margin: 6px 0;
+}
+
+/* Button Container */
+
+.buttons {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons #details {
+    height: 80%;
+    width: 80%;
+    border-radius: 50px;
+    background-color: #57a8a9;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family:'League Gothic', sans-serif;
+    font-weight: 100;
+    
+}
+
+
+.buttons #addCart {
+    background-color:#57a8a9;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100px;
+}
+.buttons #addCart:hover, .buttons #details:hover {
+    background-color: #20a5a5;
+}
