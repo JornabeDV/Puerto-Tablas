@@ -1,8 +1,7 @@
 
-
-const ButtonDetails = () => {
+const ButtonDetails = (props) => {
     return (
-        <button id="details">Ver Detalle</button>
+        <button id="details">{props.txt}</button>
     )
 }
 export default ButtonDetails;

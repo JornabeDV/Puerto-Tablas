@@ -1,13 +1,28 @@
+import { Link } from 'react-router-dom';
 
 function ItemListContainer(props) {
     return (
         <ul>
-            <li>{props.itemUno}</li>
-            <li>{props.itemDos}</li>
-            <li>{props.itemTres}</li>
-            <li>{props.itemCuatro}</li>
-
-
+            <li>
+                <Link to = "category/SNOW" >
+                    {props.itemOne} 
+                </Link>
+            </li>
+            <li>
+                <Link to = "category/SKATE" > 
+                    {props.itemTwo} 
+                </Link>
+            </li>
+            <li>
+                <Link to = "category/SURF" > 
+                    {props.itemThree} 
+                </Link>
+            </li>
+            <li>
+                <Link to = "category/LONG" > 
+                    {props.itemFour} 
+                </Link>
+            </li>
         </ul>
     )
 }

@@ -11,10 +11,10 @@ function NavBar() {
 
             <nav className="containerItemList">
                 <ItemListContainer
-                    itemUno = "SNOW"
-                    itemDos = "SKATE"
-                    itemTres = "SURF"
-                    itemCuatro = "LONG"
+                    itemOne = "SNOW"
+                    itemTwo = "SKATE"
+                    itemThree = "SURF"
+                    itemFour = "LONG"
                 />
             </nav>    
 

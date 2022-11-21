@@ -13,7 +13,7 @@ const Description = (props) => {
             </div>
             
             <span className="quantity">
-                    Cantidad: {props.quantity}
+                    Cantidad: {props.quantity} unidades
             </span>
 
             <span className="price">

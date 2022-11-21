@@ -3,27 +3,37 @@ import fetchSimulation from "../../utils/fetchSimulation";
 import products from "../../utils/products";
 import { useState, useEffect } from "react";
 import "../../styles/containerCardItems.css";
+import { useParams } from "react-router-dom";
 
 const ContainerCardItems = () => {
     const [ datos, setDatos ] = useState( [] );
+    const { idCategory } = useParams();
 
-    useEffect( () => {
-        fetchSimulation(products, 2000)
-        .then (resp => console.log(resp))
-        .catch (error => console.log(error))
-    }, [])
+    useEffect(() => {          
+        if(idCategory == undefined) {
+            fetchSimulation(products, 1500)
+            .then (resp => setDatos(resp))
+            .catch (error => console.log(error))
+        } else {
+            fetchSimulation(products.filter(filter => filter.type == idCategory ), 1500)
+            .then (resp => setDatos(resp))
+            .catch (error => console.log(error))
+        }
+
+    }, [idCategory])
 
 
     return (
         <div className="containerCardItems">
             {
-                datos.map( products => (
+                datos.map( product => (
                     <CardItem 
-                        key={products.id}
-                        image={products.imageProducts.firstImage}
-                        title={products.title}
-                        quantity={products.quantity}
-                        price={products.price}
+                        key={product.id}
+                        id={product.id}
+                        image={product.imageProduct.firstImage}
+                        title={product.title}
+                        quantity={product.quantity}
+                        price={product.price}
                     />    
                 ))
             }   

@@ -27,6 +27,10 @@ header .containerBrand{
     background-color: black;
 }
 
+header .containerBrand img {
+    max-height: 100px;
+}
+
 /* containerList */
 
 header .containerItemList {
@@ -53,6 +57,7 @@ header .containerItemList ul li {
     padding: 30px;
     color: #57a8a9;
     font-size: 60px;
+    text-decoration: none;
 }
 
 /* containerCart */
