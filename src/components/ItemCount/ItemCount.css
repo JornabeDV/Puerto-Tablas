@@ -1,0 +1,23 @@
+/* Item Count */
+
+.itemCountContainer {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.itemCountContainer .itemCountButton {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+   
+}
+
+.itemCountContainer button {
+    border-color: black;
+    background-color: white;
+    padding: 5px 10px;
+}
+

@@ -1,0 +1,66 @@
+/* Details */
+
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 3rem;
+    border: 3px solid rgb(20, 20, 20);
+    background-color: white;
+}
+
+.detailContainer .detailBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detailContainer .detailBody img {
+    width: 25%;
+    height: auto;
+    padding-right: 0.5em;
+}
+
+.detailContainer .detailData {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0.5rem;
+}
+
+.detailContainer .detailData .detailDataTitle {
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.detailContainer .detailData .detailDataPrice{
+    font-size: 28px;
+    font-style: italic;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.detailContainer .detailData .detailDataStock{
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.detailContainer .detailData .detailDataDescription {
+    width: 100%;
+}
+
+/* Buttons */
+
+.detailContainer div button {
+    border-color: black;
+    background-color: white;
+    padding: 5px 10px
+}
+
+.detailContainer div button a {
+    color: black;
+}
+
