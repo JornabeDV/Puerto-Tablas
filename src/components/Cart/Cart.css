@@ -21,7 +21,6 @@
 }
 
 .cartContainer ul li {
-    border-bottom: 1px solid black;
     margin: 50px;
 }
 
@@ -42,6 +41,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
+    align-items: center;
 }
 
 .cartData img {
