@@ -37,3 +37,7 @@
     margin: 2px;
     padding: 2px;
 }
+
+.ItemListContainer .cargando {
+    margin-top: 20px;
+}

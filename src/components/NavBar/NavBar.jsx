@@ -31,7 +31,7 @@ function NavBar() {
         </ul>
       </div>
       <div className="navBarIcono">
-        <Link to="/Cart">
+        <Link to="/cart">
           <CartWidget />
         </Link>
         {totalQuantity() !== 0 && totalQuantity()}

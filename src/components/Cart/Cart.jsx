@@ -82,6 +82,7 @@ const Cart = () => {
               type="text"
               name="reemail"
               onChange={handleOnChange}
+              value={dataForm.email}
               placeholder="Reingrese su mail"
             />
             <input
