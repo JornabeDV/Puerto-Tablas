@@ -13,25 +13,41 @@
     background: rgb(255, 255, 255);
 }
 
+.cartContainer .titleCart {
+    padding: 20px;
+
+}
+
 .cartContainer form {
-    margin: 10px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+}
+
+.cartContainer form input {
+    margin: 2px;
+    width: 50%;
 }
 
 .cartContainer ul li {
-    margin: 50px;
+    margin: 5px;
+}
+
+.cartContainer ul li .deleteButton {
+    margin: 20px;
 }
 
 .cartContainer button {
     border-color: black;
     background-color: white;
     padding: 5px 10px;
+    margin-top: 5px;
 }
 
 .cartContainer button:Hover {
-    padding: 10px;
     color: white;
     background-color: black;
 }

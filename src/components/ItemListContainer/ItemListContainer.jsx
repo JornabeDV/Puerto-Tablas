@@ -10,7 +10,7 @@ import {
 } from "firebase/firestore";
 import ItemList from "../ItemList/ItemList";
 import Banner from "../Banner/Banner";
-// ---------- CSS
+// CSS
 import "./ItemListContainer.css";
 
 const ItemListContainer = () => {

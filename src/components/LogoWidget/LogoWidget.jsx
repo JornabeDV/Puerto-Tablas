@@ -1,5 +1,6 @@
 import React from "react";
 import logoEcommerce from "../../img/puertoTablas.png";
+// CSS
 import "./LogoWidget.css";
 
 const LogoWidget = () => {

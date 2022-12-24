@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/cartContext";
 import CartWidget from "../CartWidget/CartWidget";
 import LogoWidget from "../LogoWidget/LogoWidget";
+// CSS
 import "./NavBar.css";
 
 function NavBar() {
@@ -30,8 +31,8 @@ function NavBar() {
           </li>
         </ul>
       </div>
-      <div className="navBarIcono">
-        <Link to="/cart">
+      <div className="navBarIcon">
+        <Link to="/Cart">
           <CartWidget />
         </Link>
         {totalQuantity() !== 0 && totalQuantity()}

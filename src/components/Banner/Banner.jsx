@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+//CSS
 import "./Banner.css";
 const Banner = memo(() => {
   return (

@@ -48,7 +48,7 @@ const Cart = () => {
   };
   return (
     <div className="cartContainer">
-      <h1>Carrito</h1>
+      <h1 className="titleCart">Carrito</h1>
       {cartList.lenght !== 0 ? (
         <>
           <ul>
@@ -56,11 +56,11 @@ const Cart = () => {
               <li className="cartData" key={product.id}>
                 <img src={product.urlimg} alt="Imagen del producto" />
                 <h3>{product.name}</h3> - Cantidad: {product.quantity}
-                <button onClick={() => removeItemCart(product.id)}>X</button>
+                <button className="deleteButton" onClick={() => removeItemCart(product.id)}>X</button>
               </li>
             ))}
           </ul>
-          <label>{totalPrice() !== 0 && totalPrice()}</label>
+          <label>${totalPrice() !== 0 && totalPrice()}</label>
           <button onClick={deleteCart}>Borrar todo</button>
 
           <form onSubmit={handleSubmit}>
@@ -92,7 +92,7 @@ const Cart = () => {
               value={dataForm.phone}
               placeholder="Número de teléfono"
             />
-            <button>Terminar compra</button>
+            <button>Finalizar compra</button>
           </form>
         </>
       ) : (
