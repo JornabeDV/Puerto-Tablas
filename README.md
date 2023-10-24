@@ -5,6 +5,8 @@
 INFO: The purpose of this web application was to design an electronic commerce, by implementing some functions such as ordering, payment gateway, and shopping cart.
 A database was also created with Firestore Firebase technology, where the products to be marketed were stored.
 
+DEPLOY: https://puertotablasreact.netlify.app/
+
 ## Author
 
 - [@jornabeDV](https://github.com/jornabeDV)
