@@ -2,10 +2,8 @@
 
 # Ecommerce Extreme Sports
 
-Esta aplicación web tenía como finalidad diseñar un e-commerce, mediante la implementación de algunas funciones como ordenamientos, pasarela de pagos, carrito de compra.
-También se creó una base de datos con la tecnología Firestore Firebase, donde se almacenaron los productos a comercializar.
-
-e-commerce create whit https://vitejs.dev/ 
+INFO: The purpose of this web application was to design an electronic commerce, by implementing some functions such as ordering, payment gateway, and shopping cart.
+A database was also created with Firestore Firebase technology, where the products to be marketed were stored.
 
 ## Authors
 
